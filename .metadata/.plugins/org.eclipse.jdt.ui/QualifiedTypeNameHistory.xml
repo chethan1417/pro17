@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.xworks.data.Sandal"/>
+    <fullyQualifiedTypeName name="com.xworks.datatypes.things.Upendra"/>
+    <fullyQualifiedTypeName name="com.xworks.datatypes.things.Yash"/>
+    <fullyQualifiedTypeName name="com.xworks.datatypes.things.Hat"/>
+    <fullyQualifiedTypeName name="com.xworks.datatypes.things.RajKumar"/>
 </qualifiedTypeNameHistroy>
