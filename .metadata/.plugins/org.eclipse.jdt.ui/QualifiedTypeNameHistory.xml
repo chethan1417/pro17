@@ -33,4 +33,11 @@
     <fullyQualifiedTypeName name="com.xworks.datatypes.things.Car"/>
     <fullyQualifiedTypeName name="com.xworks.datatypes.things.Alok"/>
     <fullyQualifiedTypeName name="com.xworks.datatypes.things.Yashu"/>
+    <fullyQualifiedTypeName name="com.xworks.naganna.ColgateToothpaste"/>
+    <fullyQualifiedTypeName name="com.xworks.naganna.MetroTrain"/>
+    <fullyQualifiedTypeName name="com.xworks.naganna.SubUrbanTrain"/>
+    <fullyQualifiedTypeName name="com.xworks.naganna.SuperMarket"/>
+    <fullyQualifiedTypeName name="com.xworks.naganna.OnlineMarket"/>
+    <fullyQualifiedTypeName name="com.xworks.naganna.StateGovernment"/>
+    <fullyQualifiedTypeName name="com.xworks.naganna.CentralGovernment"/>
 </qualifiedTypeNameHistroy>
