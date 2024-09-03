@@ -43,4 +43,9 @@
     <fullyQualifiedTypeName name="com.xworks.naganna.RidingHelmet"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.xworks.naganna.Blackshoe"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.internal.Weapon"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.internal.Gun"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.internal.Board"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.external.CarronBoard"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.internal.ChessBoard"/>
 </qualifiedTypeNameHistroy>
