@@ -40,4 +40,7 @@
     <fullyQualifiedTypeName name="com.xworks.naganna.OnlineMarket"/>
     <fullyQualifiedTypeName name="com.xworks.naganna.StateGovernment"/>
     <fullyQualifiedTypeName name="com.xworks.naganna.CentralGovernment"/>
+    <fullyQualifiedTypeName name="com.xworks.naganna.RidingHelmet"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.xworks.naganna.Blackshoe"/>
 </qualifiedTypeNameHistroy>
