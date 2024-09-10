@@ -16,5 +16,10 @@ public class Gun extends Weapon {
 		System.out.println("created fire in Gun");
 
 	}
+	
+	public void round()
+	{
+		
+	}
 
 }

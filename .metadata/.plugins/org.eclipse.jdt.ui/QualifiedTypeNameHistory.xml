@@ -43,9 +43,20 @@
     <fullyQualifiedTypeName name="com.xworks.naganna.RidingHelmet"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.xworks.naganna.Blackshoe"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.internal.Weapon"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.internal.Gun"/>
     <fullyQualifiedTypeName name="com.xworks.practice.internal.Board"/>
     <fullyQualifiedTypeName name="com.xworks.practice.external.CarronBoard"/>
     <fullyQualifiedTypeName name="com.xworks.practice.internal.ChessBoard"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.internal.Weapon"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.assign.Jeans"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.assign.Kettle"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.assign.Grinder"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.assign.Saree"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.assign.Bedsheet"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.assign.Bulb"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.internal.Gun"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.assign.Gun"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.assign.Country"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.assign.State"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.assign.CreditCard"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.assign.Helmet"/>
 </qualifiedTypeNameHistroy>

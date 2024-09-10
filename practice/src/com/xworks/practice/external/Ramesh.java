@@ -18,5 +18,18 @@ public class Ramesh extends Weapon {
 		use();
 		
 	}
+	//parent : any child
+	public void secure(Weapon weapon)
+	{
+		weapon.fire();
+	
+		if(weapon instanceof Gun)
+		{
+			Gun gun=(Gun)weapon;
+			gun.round();
+		}
+		
+		
+	}
 
 }
