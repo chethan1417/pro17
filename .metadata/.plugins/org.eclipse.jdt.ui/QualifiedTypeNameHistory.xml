@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworks.data.Sandal"/>
     <fullyQualifiedTypeName name="com.xworks.datatypes.things.Upendra"/>
     <fullyQualifiedTypeName name="com.xworks.datatypes.things.Yash"/>
     <fullyQualifiedTypeName name="com.xworks.datatypes.things.Hat"/>
@@ -59,4 +58,6 @@
     <fullyQualifiedTypeName name="com.xworks.practice.assign.State"/>
     <fullyQualifiedTypeName name="com.xworks.practice.assign.CreditCard"/>
     <fullyQualifiedTypeName name="com.xworks.practice.assign.Helmet"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.assign.Mobile"/>
+    <fullyQualifiedTypeName name="com.xworks.practice.assign.CottonTowel"/>
 </qualifiedTypeNameHistroy>

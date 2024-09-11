@@ -20,14 +20,12 @@ public class Jeans {
 		this.pockets = pockets;
 	}
 
-
 	@Override
 	public String toString() {
 		return "Jeans [name=" + name + ", color=" + color + ", price=" + price + ", size=" + size + ", type=" + type
 				+ ", pockets=" + pockets + "]";
 	}
-	
-	
+
 	@Override
 	public boolean equals(Object obj) 
 	{
