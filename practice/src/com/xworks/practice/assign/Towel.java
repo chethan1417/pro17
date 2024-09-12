@@ -1,9 +1,12 @@
 package com.xworks.practice.assign;
 
-public final class  Towel {//Towel class with final as non access specifier so we cant extend 
+public  class  Towel {//Towel class with final as non access specifier so we cant extend 
 	                           //Towel in CottonTowel
 	
 	public int quantity;
+	public int price;
+	public String material;
+	
 	public void wash()
 	{
 		System.out.println("created wash in Towel");
@@ -12,6 +15,10 @@ public final class  Towel {//Towel class with final as non access specifier so w
 	public final void wipe()
 	{
 		System.out.println("created wipe in Towel");
+	}
+	
+	static {
+		System.out.println("created static blck in Towel");
 	}
 	
 	
