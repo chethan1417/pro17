@@ -7,6 +7,13 @@ public  class  Towel {//Towel class with final as non access specifier so we can
 	public int price;
 	public String material;
 	
+	
+	public Towel(int quantity, int price) {
+		super();
+		this.quantity = quantity;
+		this.price = price;
+	}
+
 	public void wash()
 	{
 		System.out.println("created wash in Towel");

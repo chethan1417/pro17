@@ -2,11 +2,7 @@ package com.xworks.practice.assign;
 
 public class CottonTowel extends Towel {
 	
-	public CottonTowel()
-	{
-		super();
-		this.wash(quantity);
-	}
+
 	
 	@Override
 	public void wash()//override
