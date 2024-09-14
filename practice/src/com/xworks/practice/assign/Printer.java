@@ -7,7 +7,7 @@ import java.io.IOException;
 public class Printer {
 
     public static void main(String[] args) {
-        String filePath = "/practice/src/com/xworks/practice/assign/info.txt"; 
+        String filePath = "./info.txt"; 
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
