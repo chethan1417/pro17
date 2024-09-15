@@ -6,105 +6,102 @@ public class ProviderRunner {
 
 		BookMyShowMovieBookingProvider bookMyShowMovieBookingProvider = new BookMyShowMovieBookingProvider("BMS",
 				"varun", 5);
-		bookMyShowMovieBookingProvider.toString();
 		bookMyShowMovieBookingProvider.service();
-		System.out.println(bookMyShowMovieBookingProvider);
+		System.out.println(bookMyShowMovieBookingProvider.toString());
 		BookMyShowMovieBookingProvider bookMyShowMovieBookingProvider1 = new BookMyShowMovieBookingProvider("BMS",
 				"varun", 3);
-		bookMyShowMovieBookingProvider1.toString();
 		bookMyShowMovieBookingProvider1.service();
-		bookMyShowMovieBookingProvider1.equals(bookMyShowMovieBookingProvider);
-		System.out.println(bookMyShowMovieBookingProvider1);
+		boolean same=bookMyShowMovieBookingProvider1.equals(bookMyShowMovieBookingProvider);
+		System.out.println(bookMyShowMovieBookingProvider1.toString());
+		System.out.println("LHS equals RHS :"+same);
 		System.out.println();
 
 		MovieBookingProvider movieBookingProvider = new MovieBookingProvider("tick-ets", "akhil");
 		movieBookingProvider.book();
 		movieBookingProvider.cancel();
 		movieBookingProvider.service();
-		movieBookingProvider.toString();
-		System.out.println(movieBookingProvider);
+		System.out.println(movieBookingProvider.toString());
 		MovieBookingProvider movieBookingProvider1 = new MovieBookingProvider("tick-ets", "akhil");
 		movieBookingProvider1.book();
 		movieBookingProvider1.cancel();
 		movieBookingProvider1.service();
-		movieBookingProvider1.toString();
-		System.out.println(movieBookingProvider1);
+		System.out.println(movieBookingProvider1.toString());
+		boolean same1=movieBookingProvider1.equals(movieBookingProvider);
+		System.out.println("LHS equals RHS :"+same1);
 		System.out.println();
 
 		BookingProvider bookingProvider = new BookingProvider("bookhere", "alok");
 		bookingProvider.service();
-		bookingProvider.toString();
-		System.out.println(bookingProvider);
+		System.out.println(bookingProvider.toString());
 		BookingProvider bookingProvider1 = new BookingProvider("bookhere", "liki");
-		bookingProvider1.equals(bookingProvider);
+		boolean same2=bookingProvider1.equals(bookingProvider);
 		bookingProvider1.service();
-		bookingProvider.toString();
-		System.out.println(bookingProvider1);
+		System.out.println(bookingProvider.toString());
+		System.out.println("LHS equals RHS :"+same2);
 		System.out.println();
 
 		LenovoProvider lenovoProvider = new LenovoProvider("lenovoserver", "yashu", 10000);
 		lenovoProvider.service();
-		lenovoProvider.toString();
-		System.out.println(lenovoProvider);
+		System.out.println(lenovoProvider.toString());
 		LenovoProvider lenovoProvider1 = new LenovoProvider("lenovoserver", "yashu", 10000);
 		lenovoProvider1.service();
-		lenovoProvider1.toString();
-		lenovoProvider1.equals(lenovoProvider);
-		System.out.println(lenovoProvider1);
+		boolean same3 =lenovoProvider1.equals(lenovoProvider);
+		System.out.println(lenovoProvider1.toString());
+		System.out.println("LHS equals RHS :"+same3);
 		System.out.println();
 
 		DellProvider dellProvider = new DellProvider("dell server", "chandan");
 		dellProvider.service();
-		dellProvider.toString();
-		System.out.println(dellProvider);
+		System.out.println(dellProvider.toString());
 		DellProvider dellProvider1 = new DellProvider("dell", "chandu");
-		dellProvider1.equals(dellProvider);
+		boolean same4=dellProvider1.equals(dellProvider);
 		dellProvider1.service();
-		dellProvider1.toString();
-		System.out.println(dellProvider1);
+		System.out.println(dellProvider1.toString());
+		System.out.println("LHS equals RHS :"+same4);
 		System.out.println();
 
 		InternetProvider internetProvider = new InternetProvider("int pro", "varu");
-		internetProvider.equals(dellProvider);
+		boolean same5=internetProvider.equals(dellProvider);
 		internetProvider.service();
-		internetProvider.toString();
-		System.out.println(internetProvider);
+		System.out.println(internetProvider.toString());
+		System.out.println("LHS equals RHS :"+same5);
 		System.out.println();
 
 		JioInternetProvider jioInternetProvider = new JioInternetProvider("jioserver", "chandan");
 		jioInternetProvider.service();
-		jioInternetProvider.toString();
-		jioInternetProvider.equals(lenovoProvider1);
+		boolean same6=jioInternetProvider.equals(lenovoProvider1);
+		System.out.println(jioInternetProvider.toString());
+		System.out.println("LHS equals RHS :"+same6);
 		System.out.println();
 
 		SatJioInternetProvider satJioInternetProvider = new SatJioInternetProvider("satlaunch", "alok", 200000,
 				"12/12/2024");
-		satJioInternetProvider.service();
-		satJioInternetProvider.toString();
-		satJioInternetProvider.equals(internetProvider);
-		System.out.println(satJioInternetProvider);
+		satJioInternetProvider.service();	
+		boolean same7=satJioInternetProvider.equals(internetProvider);
+		System.out.println(satJioInternetProvider.toString());
+		System.out.println("LHS equals RHS :"+same7);
 		System.out.println();
 
 		AirtelInternetProvider airtelInternetProvider = new AirtelInternetProvider("airnet", "liki");
 		airtelInternetProvider.service();
-		airtelInternetProvider.toString();
-		airtelInternetProvider.equals(bookingProvider);
-		System.out.println(airtelInternetProvider);
+		boolean same8=airtelInternetProvider.equals(bookingProvider);
+		System.out.println(airtelInternetProvider.toString());
+		System.out.println("LHS equals RHS :"+same8);
 		System.out.println();
 
 		ExtremeAirtelInternetProvider extremeAirtelInternetProvider = new ExtremeAirtelInternetProvider("extAirnet",
 				"chethan");
 		extremeAirtelInternetProvider.service();
-		extremeAirtelInternetProvider.toString();
-		extremeAirtelInternetProvider.equals(airtelInternetProvider);
-		System.out.println(extremeAirtelInternetProvider);
+		boolean same9=extremeAirtelInternetProvider.equals(airtelInternetProvider);
+		System.out.println(extremeAirtelInternetProvider.toString());
+		System.out.println("LHS equals RHS :"+same9);
 		System.out.println();
 
 		Fast5gExtreme fast5gExtreme = new Fast5gExtreme("ex5g", "naga");
 		fast5gExtreme.service();
-		fast5gExtreme.toString();
-		fast5gExtreme.equals(airtelInternetProvider);
-		System.out.println(fast5gExtreme);
+		boolean same10=fast5gExtreme.equals(airtelInternetProvider);
+		System.out.println(fast5gExtreme.toString());
+		System.out.println("LHS equals RHS :"+same10);
 		System.out.println();
 
 	}
