@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworks.datatypes.things.Nayana"/>
-    <fullyQualifiedTypeName name="com.xworks.datatypes.things.Lakshmi"/>
-    <fullyQualifiedTypeName name="com.xworks.datatypes.things.WashingMachine"/>
-    <fullyQualifiedTypeName name="com.xworks.datatypes.things.Abhishek"/>
-    <fullyQualifiedTypeName name="com.xworks.datatypes.things.Bhoomika"/>
-    <fullyQualifiedTypeName name="com.xworks.datatypes.things.Varun"/>
-    <fullyQualifiedTypeName name="com.xworks.datatypes.things.Chandan"/>
     <fullyQualifiedTypeName name="com.xworks.datatypes.things.Car"/>
     <fullyQualifiedTypeName name="com.xworks.datatypes.things.Alok"/>
     <fullyQualifiedTypeName name="com.xworks.datatypes.things.Yashu"/>
@@ -60,4 +53,11 @@
     <fullyQualifiedTypeName name="com.xworks.interf.impliments.HospitalImp"/>
     <fullyQualifiedTypeName name="com.xworks.interf.rules.TrafficRules"/>
     <fullyQualifiedTypeName name="com.xworks.interf.impliments.TrafficImp"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.impliments.CollegeImp"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.rules.TempleRule"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.impliments.TempleImp"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.rules.BankRules"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.impliments.BankImp"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.rules.RailwayRules"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.impliments.RailwayImp"/>
 </qualifiedTypeNameHistroy>
