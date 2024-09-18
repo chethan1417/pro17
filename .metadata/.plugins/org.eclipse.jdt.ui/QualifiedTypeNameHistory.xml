@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworks.datatypes.things.Alok"/>
-    <fullyQualifiedTypeName name="com.xworks.datatypes.things.Yashu"/>
-    <fullyQualifiedTypeName name="com.xworks.naganna.ColgateToothpaste"/>
-    <fullyQualifiedTypeName name="com.xworks.naganna.MetroTrain"/>
-    <fullyQualifiedTypeName name="com.xworks.naganna.SubUrbanTrain"/>
-    <fullyQualifiedTypeName name="com.xworks.naganna.SuperMarket"/>
-    <fullyQualifiedTypeName name="com.xworks.naganna.OnlineMarket"/>
-    <fullyQualifiedTypeName name="com.xworks.naganna.StateGovernment"/>
-    <fullyQualifiedTypeName name="com.xworks.naganna.CentralGovernment"/>
-    <fullyQualifiedTypeName name="com.xworks.naganna.RidingHelmet"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="com.xworks.naganna.Blackshoe"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.internal.Board"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.external.CarronBoard"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.internal.ChessBoard"/>
     <fullyQualifiedTypeName name="com.xworks.practice.internal.Weapon"/>
     <fullyQualifiedTypeName name="com.xworks.practice.assign.Jeans"/>
     <fullyQualifiedTypeName name="com.xworks.practice.assign.Kettle"/>
@@ -60,4 +45,19 @@
     <fullyQualifiedTypeName name="com.xworks.interf.rules.BankRules"/>
     <fullyQualifiedTypeName name="com.xworks.interf.rules.CollegeRules"/>
     <fullyQualifiedTypeName name="com.xworks.interf.rules.HospitalRule"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.imp.KACricketRule"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.CricketRule"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.imp.Bcci"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.imp.FoodSafetyDepartment"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.HotelRule"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.imp.CanaraHotel"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.TrafficRule"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.imp.PoliceTrafficRule"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.imp.DriverTrafficRule"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.MallRule"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.imp.GtMallRule"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.imp.VisiterMallRule"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.PGRule"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.imp.PDHPGRule"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.imp.OwnerPGRule"/>
 </qualifiedTypeNameHistroy>
