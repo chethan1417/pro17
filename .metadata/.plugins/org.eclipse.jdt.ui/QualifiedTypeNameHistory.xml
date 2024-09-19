@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworks.practice.internal.Weapon"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.assign.Jeans"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.assign.Kettle"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.assign.Grinder"/>
     <fullyQualifiedTypeName name="com.xworks.practice.assign.Saree"/>
     <fullyQualifiedTypeName name="com.xworks.practice.assign.Bedsheet"/>
     <fullyQualifiedTypeName name="com.xworks.practice.assign.Bulb"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="com.xworks.works.inter.PGRule"/>
     <fullyQualifiedTypeName name="com.xworks.works.inter.imp.PDHPGRule"/>
     <fullyQualifiedTypeName name="com.xworks.works.inter.imp.OwnerPGRule"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.repsoitory.Repository"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.repsoitory.RepositoryImpl"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.service.ServiceImpl"/>
+    <fullyQualifiedTypeName name="com.xworks.works.inter.service.Service"/>
 </qualifiedTypeNameHistroy>
