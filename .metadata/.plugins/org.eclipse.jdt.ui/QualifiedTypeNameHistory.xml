@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworks.practice.assign.Saree"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.assign.Bedsheet"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.assign.Bulb"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.internal.Gun"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.assign.Gun"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.assign.Country"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.assign.State"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.assign.CreditCard"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.assign.Helmet"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.assign.Mobile"/>
-    <fullyQualifiedTypeName name="com.xworks.practice.assign.CottonTowel"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
@@ -60,4 +48,16 @@
     <fullyQualifiedTypeName name="com.xworks.works.inter.repsoitory.RepositoryImpl"/>
     <fullyQualifiedTypeName name="com.xworks.works.inter.service.ServiceImpl"/>
     <fullyQualifiedTypeName name="com.xworks.works.inter.service.Service"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.rules.repository.AddressRepository"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.rules.repository.AddressRepositoryImpl"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.rules.service.AddressServiceImpl"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.rules.service.AddressService"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.rules.repository.VehicleRepository"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.rules.repository.VehicleRepositoryImpl"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.rules.service.VehicleServiceImpl"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.rules.service.VehicleService"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.rules.service.MachineServiceImpl"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.rules.repository.MachineRepositoryImpl"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.rules.repository.MachineRepository"/>
+    <fullyQualifiedTypeName name="com.xworks.interf.rules.service.MachineService"/>
 </qualifiedTypeNameHistroy>

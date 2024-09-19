@@ -5,4 +5,10 @@
     <typeInfo handle="=xworks/src&lt;com.xworks.inheritance.things{InternetProvider.java[InternetProvider" modifiers="1" timestamp="1726325476836"/>
     <typeInfo handle="=xworks/src&lt;com.xworks.inheritance.things{JioInternetProvider.java[JioInternetProvider" modifiers="1" timestamp="1726326741657"/>
     <typeInfo handle="=works/src&lt;com.xworks.works.inter.service{Service.java[Service" modifiers="513" timestamp="1726719086400"/>
+    <typeInfo handle="=xworks/src&lt;com.xworks.interf.rules.repository{VehicleRepository.java[VehicleRepository" modifiers="513" timestamp="1726763752182"/>
+    <typeInfo handle="=xworks/src&lt;com.xworks.interf.rules.service{VehicleService.java[VehicleService" modifiers="513" timestamp="1726764330526"/>
+    <typeInfo handle="=xworks/src&lt;com.xworks.interf.rules.repository{MachineRepository.java[MachineRepository" modifiers="513" timestamp="1726766182740"/>
+    <typeInfo handle="=xworks/C:\/Users\/91854\/Downloads\/eclipse-jee-2021-03-R-win32-x86_64\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\/jre\/lib\/jrt-fs.jar`java.base=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/15\/docs\/api\/=/&lt;sun.security.ssl(Authenticator$MAC.class[MAC" modifiers="1544" timestamp="1724161168484"/>
+    <typeInfo handle="=xworks/src&lt;com.xworks.interf.rules.service{MachineService.java[MachineService" modifiers="513" timestamp="1726766392375"/>
+    <typeInfo handle="=xworks/C:\/Users\/91854\/Downloads\/eclipse-jee-2021-03-R-win32-x86_64\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\/jre\/lib\/jrt-fs.jar`jdk.hotspot.agent=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/15\/docs\/api\/=/&lt;sun.jvm.hotspot.debugger(MachineDescription.class[MachineDescription" modifiers="1537" timestamp="1724161168484"/>
 </typeInfoHistroy>
