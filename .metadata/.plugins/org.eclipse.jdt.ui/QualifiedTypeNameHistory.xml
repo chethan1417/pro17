@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="java.io.FileReader"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="com.xworks.inheritance.things.Provider"/>
     <fullyQualifiedTypeName name="com.xworks.inheritance.things.BookMyShowMovieBookingProvider"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="com.xworks.interf.rules.repository.MachineRepositoryImpl"/>
     <fullyQualifiedTypeName name="com.xworks.interf.rules.repository.MachineRepository"/>
     <fullyQualifiedTypeName name="com.xworks.interf.rules.service.MachineService"/>
+    <fullyQualifiedTypeName name="com.xworks.works.internal.Bank"/>
+    <fullyQualifiedTypeName name="com.xworks.works.runner.HdfcBank"/>
+    <fullyQualifiedTypeName name="com.xworks.exception.PersonalDetails"/>
 </qualifiedTypeNameHistroy>

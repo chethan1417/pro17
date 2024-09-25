@@ -10,7 +10,7 @@ public class Bank {
 		return accHolder;
 	}
 
-	public void setAccHolder(String accHolder) {
+	 void setAccHolder(String accHolder) {
 		this.accHolder = accHolder;
 	}
 
