@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworks.interf.rules.TrafficRules"/>
-    <fullyQualifiedTypeName name="com.xworks.interf.rules.BankRules"/>
-    <fullyQualifiedTypeName name="com.xworks.interf.rules.CollegeRules"/>
     <fullyQualifiedTypeName name="com.xworks.interf.rules.HospitalRule"/>
     <fullyQualifiedTypeName name="com.xworks.works.inter.imp.KACricketRule"/>
     <fullyQualifiedTypeName name="com.xworks.works.inter.CricketRule"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="com.xworkz.collection.dto.CountryDTO"/>
     <fullyQualifiedTypeName name="com.xworkz.collection.eNum.Code"/>
     <fullyQualifiedTypeName name="com.xworkz.collection.eNum.Continent"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="com.xworkz.collection.works.Labour"/>
+    <fullyQualifiedTypeName name="com.xworkz.collection.works.FoodApp"/>
 </qualifiedTypeNameHistroy>
