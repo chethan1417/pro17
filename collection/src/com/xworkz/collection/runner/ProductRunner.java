@@ -1,7 +1,10 @@
 package com.xworkz.collection.runner;
 
 import java.util.Collection;
+import java.util.Comparator;
 import java.util.LinkedList;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 import com.xworkz.collection.dto.ProductDTO;
 
@@ -12,7 +15,7 @@ public class ProductRunner {
 		ProductDTO productDTO1 = new ProductDTO(1, "Bottle", "osama", 99);
 		ProductDTO productDTO2 = new ProductDTO(2, "Tyre", "kiran", 3000);
 		ProductDTO productDTO3 = new ProductDTO(3, "Chair", "likith", 500);
-		ProductDTO productDTO4 = new ProductDTO(4, "Tv", "alok", 55989);
+		ProductDTO productDTO4 = new ProductDTO(4, "Tv", "alok", 25500);
 		ProductDTO productDTO5 = new ProductDTO(5, "Shoe", "yash", 3499);
 		ProductDTO productDTO6 = new ProductDTO(6, "Knief", "darshan", 199);
 		ProductDTO productDTO7 = new ProductDTO(7, "Bag", "chandan", 1000);
@@ -33,12 +36,88 @@ public class ProductRunner {
 		collection.add(productDTO9);
 		collection.add(productDTO10);
 
+		System.out.println("original Data");
 		collection.stream().forEach((ref) -> System.out.println(ref));
-		
 		System.out.println();
 		
-		collection.stream().sorted()
-		.filter(ref->ref.getCost()>1000).forEach(ref -> System.out.println(ref));
+		collection
+		.stream()
+		.sorted()
+		.filter(ref->ref.getCost()>1000)
+		.collect(Collectors.toList())
+		.forEach(ref -> System.out.println(ref));
+		System.out.println();
+		
+		collection
+		.stream()
+		.sorted()
+		.filter(ref->ref.getCost()>5000)
+		.collect(Collectors.toList())
+		.forEach(ref->System.out.println(ref));
+		System.out.println();
+		
+		collection
+		.stream()
+		.sorted()
+		.filter(ref->ref.getCost()>5000 && ref.getCost()<30000)
+		.collect(Collectors.toList())
+		.forEach(ref->System.out.println(ref));
+		System.out.println();
+		
+		
+		collection
+		.stream()
+		.sorted(Comparator.comparingDouble(ProductDTO::getCost).reversed())
+		.collect(Collectors.toList())
+		.forEach(ref->System.out.println(ref));
+		System.out.println();
+		
+		collection
+		.stream()
+		.sorted(Comparator.comparing(ProductDTO::getName))
+		.filter(ref->ref.getVendor().startsWith("a"))
+		.collect(Collectors.toList())
+		.forEach(ref->System.out.println(ref));
+		System.out.println();
+		
+		
+		collection
+		.stream()
+		.sorted(Comparator.comparingDouble(ProductDTO::getCost))
+		.collect(Collectors.toList())
+		.forEach(ref->System.out.println(ref));
+		System.out.println();
+		
+		
+		collection
+		.stream()
+		.sorted(Comparator.comparingInt(ProductDTO::getId))
+		.collect(Collectors.toList())
+		.forEach(ref->System.out.println(ref));
+		System.out.println();
+		
+		
+		collection
+		.stream()
+		.map(ProductDTO::getName)
+		.collect(Collectors.toList())
+		.forEach(ref->System.out.println(ref));
+		System.out.println();
+		
+		collection
+		.stream()
+		.map(ProductDTO::getId)
+		.collect(Collectors.toList())
+		.forEach(ref->System.out.println(ref));
+		System.out.println();
+		
+		collection
+		.stream()
+		.map(ref->ref.getName().toUpperCase())
+		.collect(Collectors.toList())
+		.forEach(ref->System.out.println(ref));
+		System.out.println();
+
 	}
 
 }
