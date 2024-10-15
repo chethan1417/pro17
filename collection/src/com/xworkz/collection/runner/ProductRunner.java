@@ -67,14 +67,14 @@ public class ProductRunner {
 		
 		collection
 		.stream()
-		.sorted(Comparator.comparingDouble(ProductDTO::getCost).reversed())
+		.sorted((ref1,ref2)->Double.compare(ref2.getCost(),ref1.getCost()))
 		.collect(Collectors.toList())
 		.forEach(ref->System.out.println(ref));
 		System.out.println();
 		
 		collection
 		.stream()
-		.sorted(Comparator.comparing(ProductDTO::getName))
+		.sorted()
 		.filter(ref->ref.getVendor().startsWith("a"))
 		.collect(Collectors.toList())
 		.forEach(ref->System.out.println(ref));
@@ -106,16 +106,14 @@ public class ProductRunner {
 		
 		collection
 		.stream()
-		.map(ProductDTO::getId)
 		.collect(Collectors.toList())
-		.forEach(ref->System.out.println(ref));
+		.forEach(ref->System.out.println(ref.getId()));
 		System.out.println();
 		
 		collection
 		.stream()
-		.map(ref->ref.getName().toUpperCase())
 		.collect(Collectors.toList())
-		.forEach(ref->System.out.println(ref));
+		.forEach(ref->System.out.println(ref.getName().toUpperCase()));
 		System.out.println();
 
 	}
