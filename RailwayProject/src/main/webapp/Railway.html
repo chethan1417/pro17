@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Railways Booking</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<pre>
+    <div class="container mt-5">
+        <h1>Indian Railways</h1>
+        <form action="railways" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="source">Source</label>
+                <select class="form-control" id="source" name="source">
+                    <option>--select--</option>
+                    <option>Chitradurga</option>
+                    <option>Davanagere</option>
+                    <option>Hubli</option>
+                    <option>Belgavi</option>
+                    <option>Bengaluru</option>
+                    <option>Mysore</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="destination">Destination</label>
+                <select class="form-control" id="destination" name="destination">
+                    <option>--select--</option>
+                    <option>Chitradurga</option>
+                    <option>Davanagere</option>
+                    <option>Hubli</option>
+                    <option>Belgavi</option>
+                    <option>Bengaluru</option>
+                    <option>Mysore</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="startDate">Start Date</label>
+                <input type="date" class="form-control" id="startDate" name="startDate">
+            </div>
+            <div class="form-group">
+                <label for="returnDate">Return Date</label>
+                <input type="date" class="form-control" id="returnDate" name="returnDate">
+            </div>
+            <div class="form-group">
+                <label for="seatType">Seat Type</label>
+                <select class="form-control" id="seatType" name="seatType">
+                    <option>--select--</option>
+                    <option>Gold</option>
+                    <option>Silver</option>
+                    <option>General</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="totalTickets">Total Tickets</label>
+                <input type="number" class="form-control" id="totalTickets" name="totalTickets">
+            </div>
+            <div class="form-group">
+                <label for="noOfMale">No of Male</label>
+                <input type="number" class="form-control" id="noOfMale" name="noOfMale">
+            </div>
+            <div class="form-group">
+                <label for="noOfFemale">No of Female</label>
+                <input type="number" class="form-control" id="noOfFemale" name="noOfFemale">
+            </div>
+            <button type="submit" class="btn btn-primary">Book</button>
+        </form>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</pre>
+</body>
+</html>
