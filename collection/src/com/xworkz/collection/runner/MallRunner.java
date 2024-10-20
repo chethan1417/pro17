@@ -66,7 +66,6 @@ public class MallRunner {
 		collection
 		.stream()
 		.map(ref->ref.getName())
-		.collect(Collectors.toList())
 		.forEach(ref->System.out.println(ref));
 		System.out.println();
 				
@@ -87,14 +86,14 @@ public class MallRunner {
 			System.out.println(ref);
 		}
 		
-		LinkedList<MallDTO> collection1=new LinkedList<MallDTO>();
+		LinkedList<MallDTO> collection1=(LinkedList<MallDTO>)collection;
 		
-		ListIterator<MallDTO> listIterator=collection1.listIterator();
+		ListIterator<MallDTO> listIterator=collection1.listIterator(9);
 		
 		System.out.println("listTterator");
 		
-		while (listIterator.hasNext()) {
-			MallDTO ref = listIterator.next();
+		while (listIterator.hasPrevious()) {
+			MallDTO ref = listIterator.previous();
 			System.out.println(ref);
 		}
 

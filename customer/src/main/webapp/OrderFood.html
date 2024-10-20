@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xworkz Restaurant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsy5+hxRm9R7h6BfKZvK6OWf5R3IjD+y1hdo2vqAqNS" crossorigin="anonymous">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h1 class="text-center">Order Food Here</h1>
+    <form action="go" method="post">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <div class="mb-3">
+            <label for="foodName" class="form-label">Food Name</label>
+            <select id="foodName" name="foodName" class="form-select">
+              <option selected>--Select--</option>
+              <option value="Dose">Dose</option>
+              <option value="Idli">Idli</option>
+              <option value="Poori">Poori</option>
+              <option value="Pulav">Pulav</option>
+              <option value="Biryani">Biryani</option>
+              <option value="Jamun">Jamun</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="quantity" class="form-label">Quantity</label>
+            <input type="number" id="quantity" name="quantity" class="form-control" placeholder="Enter quantity">
+          </div>
+
+          <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+            <input type="text" id="price" name="price" class="form-control" placeholder="Enter price">
+          </div>
+
+          <button type="submit" class="btn btn-primary w-100">Order</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-kaatpaNv9DFohHVJDo21kl/YOulPeYB7hhjzHj5UsKLKNuoFzUlHvgC24FEU+06s" crossorigin="anonymous"></script>
+
+</body>
+</html>
