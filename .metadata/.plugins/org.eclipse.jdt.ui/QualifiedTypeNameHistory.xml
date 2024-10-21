@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.BiPredicate"/>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.UnaryOperator"/>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.BinaryOperator"/>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.IntConsumer"/>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.IntSupplier"/>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.IntFunction"/>
     <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.IntPredicate"/>
     <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.IntUnaryOperator"/>
     <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.IntBinaryOperator"/>
@@ -48,16 +42,22 @@
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="com.xworkz.collection.dto.ProductDTO"/>
     <fullyQualifiedTypeName name="javax.xml.ws.WebServiceProvider"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="com.xworkz.collection.eNum.Location"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.ListIterator"/>
     <fullyQualifiedTypeName name="com.xworkz.collection.dto.MallDTO"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
-    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.If"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.servlet.CollegeAdmissionServlet"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.dto.CollegeAddmissionDTO"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.dto.FeedBackDTO"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.dto.MovieTicketsDTO"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.dto.CricketTicketDTO"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.dto.ConcertTicketDTO"/>
 </qualifiedTypeNameHistroy>
