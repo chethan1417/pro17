@@ -11,4 +11,8 @@
     <typeInfo handle="=xworks/src&lt;com.xworks.interf.rules.service{MachineService.java[MachineService" modifiers="513" timestamp="1726766392375"/>
     <typeInfo handle="=works/src&lt;com.xworks.works.internal{Students.java[Students" modifiers="513" timestamp="1727240719010"/>
     <typeInfo handle="=works/src&lt;com.xworks.works.internal{College.java[College" modifiers="513" timestamp="1727199357066"/>
+    <typeInfo handle="=Forms/src\/main\/java&lt;com.xworkz.forms.service{ConcertTicketService.java[ConcertTicketService" modifiers="513" timestamp="1729605903703"/>
+    <typeInfo handle="=Forms/src\/main\/java&lt;com.xworkz.forms.service{CricketTicketService.java[CricketTicketService" modifiers="513" timestamp="1729607994653"/>
+    <typeInfo handle="=Forms/src\/main\/java&lt;com.xworkz.forms.service{FeedBackService.java[FeedBackService" modifiers="513" timestamp="1729609130137"/>
+    <typeInfo handle="=Forms/src\/main\/java&lt;com.xworkz.forms.service{MovieTicketsService.java[MovieTicketsService" modifiers="513" timestamp="1729609754663"/>
 </typeInfoHistroy>

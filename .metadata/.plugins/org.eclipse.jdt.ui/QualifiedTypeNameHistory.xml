@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.IntPredicate"/>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.IntUnaryOperator"/>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.IntBinaryOperator"/>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.LongConsumer"/>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.LongSupplier"/>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.LongFunction"/>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.LongPredicate"/>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.LongUnaryOperator"/>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.LongBinaryOperator"/>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.DoubleConsumer"/>
-    <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.DoubleSupplier"/>
     <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.DoubleFunction"/>
     <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.DoublePredicate"/>
     <fullyQualifiedTypeName name="com.xworkz.collection.functionalInterface.DoubleUnaryOperator"/>
@@ -52,12 +41,23 @@
     <fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.If"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="com.xworkz.forms.servlet.CollegeAdmissionServlet"/>
-    <fullyQualifiedTypeName name="com.xworkz.forms.dto.CollegeAddmissionDTO"/>
-    <fullyQualifiedTypeName name="com.xworkz.forms.dto.FeedBackDTO"/>
-    <fullyQualifiedTypeName name="com.xworkz.forms.dto.MovieTicketsDTO"/>
-    <fullyQualifiedTypeName name="com.xworkz.forms.dto.CricketTicketDTO"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.dto.CollegeAddmissionDTO"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.service.CollegeAdmissionService"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.service.CollegeAdmissionServiceImpl"/>
     <fullyQualifiedTypeName name="com.xworkz.forms.dto.ConcertTicketDTO"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.service.ConcertTicketService"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.service.ConcertTicketServiceImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.dto.CricketTicketDTO"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.service.CricketTicketServiceImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.service.CricketTicketService"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.dto.FeedBackDTO"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.service.FeedBackServiceImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.service.FeedBackService"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.dto.MovieTicketsDTO"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.service.MovieTicketsServiceImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.forms.service.MovieTicketsService"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
 </qualifiedTypeNameHistroy>
