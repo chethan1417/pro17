@@ -821,3 +821,6 @@
 2024-10-21 19:23:11,749 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\91854\OneDrive\Desktop\BBB\pro17\chethan\src\main\resources
 2024-10-21 19:23:11,752 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2024-10-21 19:23:11,753 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\91854\OneDrive\Desktop\BBB\pro17\chethan\src\test\resources
+2024-10-22 18:29:29,090 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-22 18:29:40,843 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:29:40,845 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\91854\OneDrive\Desktop\BBB\pro17\chethan\src\main\resources

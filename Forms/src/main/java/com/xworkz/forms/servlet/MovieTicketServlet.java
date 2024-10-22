@@ -9,10 +9,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.xworkz.forms.dto.MovieTicketsDTO;
+import com.xworkz.forms.service.MovieTicketsService;
+import com.xworkz.forms.service.MovieTicketsServiceImpl;
 
-@WebServlet(loadOnStartup = 1,urlPatterns = "/movie")
+@WebServlet(loadOnStartup = 1, urlPatterns = "/movie")
 public class MovieTicketServlet extends HttpServlet {
-	
+
 	public MovieTicketServlet() {
 
 		System.out.println("no arg const of MovieTicketServlet");
@@ -21,19 +23,30 @@ public class MovieTicketServlet extends HttpServlet {
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-		String name=req.getParameter("name");
-		String totalTickets=req.getParameter("totalTickets");
-		String theaterName=req.getParameter("theaterName");
-		String seatType=req.getParameter("seatType");
-		String donation=req.getParameter("donation");
-		String date=req.getParameter("date");
-		String time=req.getParameter("time");
-		int convertedTotalTickets=Integer.valueOf(totalTickets);
-		double convertedDonation=Double.valueOf(donation);
+		String name = req.getParameter("name");
+		String totalTickets = req.getParameter("totalTickets");
+		String theaterName = req.getParameter("theaterName");
+		String seatType = req.getParameter("seatType");
+		String donation = req.getParameter("donation");
+		String date = req.getParameter("date");
+		String time = req.getParameter("time");
+		int convertedTotalTickets = Integer.valueOf(totalTickets);
+		double convertedDonation = Double.valueOf(donation);
 
-		MovieTicketsDTO movieTicketsDTO=new MovieTicketsDTO(name, convertedTotalTickets, theaterName, seatType, convertedDonation, date, time);
-	 
-		System.out.println("MovieTicketsDTO:"+movieTicketsDTO);
+		MovieTicketsDTO movieTicketsDTO = new MovieTicketsDTO(name, convertedTotalTickets, theaterName, seatType,
+				convertedDonation, date, time);
+
+		System.out.println("MovieTicketsDTO:" + movieTicketsDTO);
 		resp.getWriter().println(movieTicketsDTO);
+
+		MovieTicketsService movieTicketsService = new MovieTicketsServiceImpl();
+		boolean isValid = movieTicketsService.validate(movieTicketsDTO);
+
+		if (isValid) {
+			System.out.println("Booking success");
+		} else {
+			System.out.println("Booking failed");
+		}
+
 	}
 }

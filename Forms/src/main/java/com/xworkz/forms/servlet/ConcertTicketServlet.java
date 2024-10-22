@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.xworkz.forms.dto.ConcertTicketDTO;
+import com.xworkz.forms.service.ConcertTicketService;
+import com.xworkz.forms.service.ConcertTicketServiceImpl;
 
 @WebServlet(loadOnStartup = 1,urlPatterns = "/concert")
 public class ConcertTicketServlet extends HttpServlet {
@@ -31,6 +33,19 @@ public class ConcertTicketServlet extends HttpServlet {
 		ConcertTicketDTO concertTicketDTO=new ConcertTicketDTO(location, artistName, ticketType, convertedNoOfTickets);
 		System.out.println("ConcertTicketDTO:"+concertTicketDTO);
 		resp.getWriter().println(concertTicketDTO);
+		
+		ConcertTicketService concertTicketService=new ConcertTicketServiceImpl();
+		boolean isValid=concertTicketService.validateAndSave(concertTicketDTO);
+		
+		if(isValid)
+		{
+			System.out.println("Ticket Booking Done");
+		}
+		else
+		{
+			System.out.println("Ticket Booking is Incomplete");
+		}
+		
 	}
 	
 	
